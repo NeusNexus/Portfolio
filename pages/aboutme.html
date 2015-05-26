@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- Portfolio - Phase 1 of HTML and CSS Assignment
+	Author: Mike Dean - aboutme.html
+	Date: October 10 2014
+	- Note - Navigation uses normal navigation and slickNav.css from http://slicknav.com/
+	All other source code unless specified has been made by Me. - Uses Modernizr-
+-->
+<head>
+    <title>About me</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8" />
+    <script src="../script/modernizr-1.5.js"></script>
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/slicknav.css">
+	
+	<link rel="stylesheet" type="text/css" href="../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../css/tooltipster-punk.css" />
+</head>
+<body>
+    <header>
+	<!-- Navigation: Default format that each css uses-->
+               <nav id="menu">
+                <ul>
+                    <li class="tooltip" title="This is the link back to the homepage" ><a href="home.html">Homepage</a>
+
+                    </li>
+                    <li class="tooltip" title="This is a link to a page about me"><a href="aboutme.html">About Me</a>
+
+                    </li>
+                    <li class="tooltip" title="A list of my Career Goals"><a href="careergoals.html">Career Goals</a>
+
+                    </li>
+                    <li class="tooltip" title="A page that displays my resume"><a href="resume.html">Resume</a>
+
+                    </li>
+                    <li class="tooltip" title="Some of my Work Samples"><a href="work.html">Work Samples</a>
+
+                    </li>
+                    <li class="tooltip" title="A list of some of the accomplishments made during the assignment"><a href="accomplishments.html">Accomplishments</a>
+
+                    </li>
+                </ul>
+            </nav>
+        
+<h1>About: Mike Dean</h1>
+
+    </header>
+    <!-- Main Section: Features a short introduction about me-->
+    <section>
+        <h1>About Me</h1>
+
+        <p>Hello there, My name is Mike Dean, I am a currently a student
+	at Nova Scotia Community College in the Information Technology Programming
+	Concentration. Currently in my second year, I am beginning to understand a lot
+	more about the programming side of I.T. Things have certainly become more challenges
+	but I feel I am up to the challenge.</p>
+            <ul>
+                <li>Current Education Status: Active and Ongoing</li>
+                <li>Age: 24</li>
+                <li>Interests/Hobbies:
+                    <ul>
+                        <li>Programming</li>
+                        <li>Tinkering in editing software.</li>
+                        <li>Helping to fix computers for my family</li>
+                        <li>Gaming</li>
+                    </ul>
+            </ul>
+    </section>
+    <!-- Aside section that features side content: My Photo-->
+    <aside>
+        <img src="../images/mikeupdated.jpg" alt="mikeupdated" />
+    </aside>
+    	<!-- Footer that contains contact information -->
+    <footer>
+        <p><em>Mike Dean - Phone: 902-691-6430 - Email: MikeADean@live.com</em>
+        </p>
+    </footer>
+    <!-- Part of the slickNav Implementation, links to the current JQuery File,
+	and then implemnts a function that changes the id of menu to the class of slicknav-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../script/jquery.slicknav.min.js"></script>
+    <script src="../script/jquery.slicknav.js"></script>
+	<!-- Part of the Tooltipstern Implentation-->
+	<script src="../script/jquery.tooltipster.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#menu').slicknav();
+
+	       $('.tooltip').tooltipster({
+		theme: 'tooltipster-punk'
+	});
+            });
+		
+	
+
+        </script>
+</body>
+
+</html>
