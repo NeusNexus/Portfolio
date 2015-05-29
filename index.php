@@ -301,15 +301,19 @@
 
             </div>
             <div class="col-md-4 img-portfolio">
-                <h3>Creative/artistic skills</h3>
-                 <h4>I can:</h4>
+                <h3>Technical Skills</h3>
+                 <h4>I can code using:</h4>
                 <hr class="separetor">
 
                   <ul>
-                  <li>present artistic ideas</li>
-                  <li>use computers to create presentations</li>
-                  <li>design and lay out Web pages</li>
-                  <li>combined two gaming elements into one</li>
+                  <li>Visual Basic</li>
+                  <li>C#</li>
+                  <li>HTML5, CSS3, Bootstrap, Javascript, php</li>
+                  <li>C++</li>
+                  <li>J2EE</li>
+                  <li>Java</li>
+                  <li>SQL</li>
+                  <li>WAMP</li>
                 </ul>
                 
             </div>
@@ -343,15 +347,51 @@
                 <div>
                       <div class="content">
         <div class="embed-container">
-          <embed src="downloads/CertificateUnityGame.swf"> 
+          <embed src="downloads/CertificateUnityGameDevelopment.pdf"> 
     </div>
     </div>
     </div>
                      <h3>Unity 3D Development Course Reflection:</h3>
-              <p></p> 
+              <p>Ever since I was little, I wanted to be able to to make
+              video games to share with the world around me. During my studies,
+              I got the chance to take a step in that direction with the self-directed
+              study course. I decided to learn the unity game engine as it was freely
+              available and many online courseware dedicated to learning it's key concepts
+              and interface.</p>
+              <p>After deciding on taking the Unity 3D Development Course,
+              I took the time to go through the course and take each of its
+              elements to heart. After finishing the course, I felt more confident
+              in creating my own prototype game. This led into my capstone project
+              which resulted in a game prototype that I showed off at the Technology
+              Showcase in Halifax in April 2015.</p>
+              <p>Overall, I found that this portfolio entry was one of the most
+              influential pieces that I could put into my portfolio as it has
+              great significance to my goals and ambitions for the future.</p>
               
       
-                <div></div>
+                <div>
+                  <img src="downloads/LLEP.png">
+                  
+                  <h3>Lego League Participation Certificate</h3>
+                  <p>As this is the only example in my portfolio of volunteer
+                  experience, I want to make sure that the experience of
+                  partcipating at the lego event is reflected upon well
+                  enough to demonstrate to potential employers that I am
+                  willing to take my own to give back to the community
+                  that has helped me develop so much.</p>
+                  <p>Because of my prior experience in volunteering for the
+                  event in my first year, I was well prepared in knowing
+                  exactly how the event would go. As I was tasked this year
+                  with being a robot design judge, I wanted to make sure that
+                  I judged each of the team's robots with as much professionalism
+                  and respect as prior judges have done before me.</p>
+                  <p>Overall, I felt the experience was a rewarding one
+                  and was amazed at what the teams were able to pull off and understand.</p>
+                  <p>Finally, I want to say that I hope that I can help with the event
+                  after I have graduated as it is a great chance to help the younger
+                  generation learn the value of science and technology.</p>
+                  
+                </div>
             </div>
             
         </div>
