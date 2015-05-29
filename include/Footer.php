@@ -8,14 +8,14 @@
             <div class="footerlinks"><!-- FOOTER LINKS START -->            
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php #about">About</a></li>
-                    <li><a href="index.php #career">Career Goal</a></li>
+                    <li><a href="index.php#about">About</a></li>
+                    <li><a href="index.php#career">Career Goal</a></li>
                     <li><a href="work.php">My Work</a></li>
-                    <li><a href="index.php #resume">Resume</a></li>
-                    <li><a href="index.php #skills">Skills Inventory</a></li>
-                    <li><a href="index.php #certs">Certificates</a></li>
+                    <li><a href="index.php#resume">Resume</a></li>
+                    <li><a href="index.php#skills">Skills Inventory</a></li>
+                    <li><a href="index.php#certs">Certificates</a></li>
 
-                    <li><a href="index.php #contact">Contact</a></li>                   
+                    <li><a href="index.php#contact">Contact</a></li>                   
                 </ul>
             </div><!-- FOOTER LINKS END -->
              

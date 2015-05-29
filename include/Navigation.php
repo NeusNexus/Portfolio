@@ -27,34 +27,34 @@
                <li class="dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">My Work: Year 1<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="work.php #Palindrome">Palindrome</a></li>
-                    <li><a href="work.php #Access"</a>Longliners</li>
-                    <li><a href="work.php #Console">Console Diamond</a></li>
-                    <li><a href="work.php #Networktools">Network Tools</li>
-                    <li><a href="work.php #minireport">Mini Report</a></li>
-                    <li><a href="work.php #stress">Stress Plan</a></li>
-                    <li><a href="work.php #NFC">NFC Research Paper</a></li>
-                    <li><a href="work.php #Morse">Morse Code Application</a></li>
-                    <li><a href="work.php #WebUI">Web UI Project</a></li>
-                    <li><a href="work.php #LetsNFC">LetsNFCTag</a></li>
+                    <li><a href="work.php#Palindrome">Palindrome</a></li>
+                    <li><a href="work.php#Access"</a>Longliners</li>
+                    <li><a href="work.php#Console">Console Diamond</a></li>
+                    <li><a href="work.php#Networktools">Network Tools</li>
+                    <li><a href="work.php#minireport">Mini Report</a></li>
+                    <li><a href="work.php#stress">Stress Plan</a></li>
+                    <li><a href="work.php#NFC">NFC Research Paper</a></li>
+                    <li><a href="work.php#Morse">Morse Code Application</a></li>
+                    <li><a href="work.php#WebUI">Web UI Project</a></li>
+                    <li><a href="work.php#LetsNFC">LetsNFCTag</a></li>
                 </ul>
             </li>
                
                <li class="dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">My Work: Year 2 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="work.php #meeting">Meeting Agenda</a></li>
-                    <li><a href="work.php #J2EE">J2EE Showcase</a></li>
-                    <li><a href="work.php #bouncy">Bouncing Ball C#</a></li>
-                    <li><a href="work.php #Z-find">Z-Find</a></li>
+                    <li><a href="work.php#meeting">Meeting Agenda</a></li>
+                    <li><a href="work.php#J2EE">J2EE Showcase</a></li>
+                    <li><a href="work.php#bouncy">Bouncing Ball C#</a></li>
+                    <li><a href="work.php#Z-find">Z-Find</a></li>
                 </ul>
             </li>
-                        <li><a href="index.php #resume">Resume</a></li>
+                        <li><a href="index.php#resume">Resume</a></li>
                         <li><a href="index.php#skills">Skills Inventory</a></li>
-                        <li><a href="index.php #certs">Certificates</a></li>
+                        <li><a href="index.php#certs">Certificates</a></li>
                         
                         <!--don't forget to replace my email address below with yours-->
-                        <li><a href="index.php #contact"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+                        <li><a href="index.php#contact"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
                     </ul>
                 
                 </div><!--.nav-collapse -->
