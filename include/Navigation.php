@@ -21,8 +21,8 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS START BELOW-->
                          <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php #about">About</a></li>
-                        <li><a href="index.php #career">Career Goal</a></li>
+                        <li><a href="index.php#about">About</a></li>
+                        <li><a href="index.php#career">Career Goal</a></li>
                         
                <li class="dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">My Work: Year 1<b class="caret"></b></a>
