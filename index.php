@@ -205,7 +205,7 @@
         </div><!-- PORTFOLIO SECTION HEAD END -->
     <div class="content">
     <div class="embed-container">
-        <iframe src="downloads/Resume.pdf" frameborder="0"></iframe>
+        <embed src="downloads/resume.pdf">
     </div>
     </div>
     </div>
