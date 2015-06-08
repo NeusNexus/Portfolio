@@ -402,22 +402,17 @@
       
 
         
-    <div class="head" id="contact">
-		<h3>Contact Form</h3>
-		<p>This is our contact form. Send us your feedback !</p>
-    </div>
-	
-	<!-- feedback form form -->
-		<form id="form" action="#" method="post">
-		<input type = "text" name="vname" value="" placeholder="Your Name"/>
-		<input type = "text" name="vemail" value="" placeholder="Your Email"/>
-		<input type = "text" name="sub" value="" placeholder="Subject"/>
-		<label>Your Message</label>
-		<textarea name="msg" placeholder="Type your text here..."></textarea>
-		<input type="submit" name="submit" id="submit" value="Send Feedback"/>
-		</form>
-		<h3><?php include "secure_email_code.php"?></h3> 
- </div>  
+<!-- Do not change the code! -->
+<a id="foxyform_embed_link_675602" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=675602&sec_hash=509c507e81f&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! -->
         </div>
        
     <?php include("include/Footer.php");?>
