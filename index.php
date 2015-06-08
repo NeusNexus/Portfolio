@@ -400,30 +400,22 @@
 
       <hr>
       
-    <section class="body" id="contact">
-    
-	    <form action="form.php" method="post" enctype="multipart/form-data">
-	        
-	        <h1 class="title">Contact</h1>
-	        
-		    <label></label>
-		    <input name="name" required="required" placeholder="Your Name">
-		    
-		            
-		    <label></label>
-		    <input name="email" type="email" required="required" placeholder="Your Email">
-		            
-		    
-		    <label></label>
-		    <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
-		    
-		    		    
-		    <input id="cancel" name="cancel" value="Cancel" />
-		            
-		    <input id="submit" name="submit" type="submit" value="Submit">
-	        
-	    </form>
-    </section>
+	<div class="head">
+		<h3>Contact Form</h3>
+		<p>This is our contact form. Send us your feedback !</p>
+    </div>
+	
+	<!-- feedback form form -->
+		<form id="form" action="#" method="post">
+		<input type = "text" name="vname" value="" placeholder="Your Name"/>
+		<input type = "text" name="vemail" value="" placeholder="Your Email"/>
+		<input type = "text" name="sub" value="" placeholder="Subject"/>
+		<label>Your Message</label>
+		<textarea name="msg" placeholder="Type your text here..."></textarea>
+		<input type="submit" name="submit" id="send" value="Send Feedback"/>
+		</form>
+		<h3><?php include "secure_email_code.php"?></h3> 
+ </div> 
         </div>
        
     <?php include("include/Footer.php");?>
