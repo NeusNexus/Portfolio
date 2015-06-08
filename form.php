@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "MikeADean@live.com";
+    $email_to = "neokorfox@live.ca";
  
     $email_subject = "Portfolio Inquiry";
  
