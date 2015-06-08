@@ -364,7 +364,7 @@
           stressed out. And when he was suddenly taken from me, I needed the advice
           from this document more than ever.</p>
           
-          <p>If it wasn’t for this stress plan, I wouldn’t be as solid a person
+          <p>If it wasn't for this stress plan, I wouldn't be as solid a person
           that I am today, sitting here and writing this reflection. I want to personally
           thank Sharla Rolfe-Hunter for creating this assignment and hope she gets a chance
           to see this on consolidation day.</p>
@@ -538,7 +538,7 @@
           <p>As much as I am not satisfied with the amount of the project that got done,
           the main idea that I got from the experience is to never give up even when life
           throws you curve balls.</p>
-          <p>Because of that, that’s why I feel this entry is an important part of my
+          <p>Because of that, that's why I feel this entry is an important part of my
           development as a person and believe that this moved me to the person that I am today.</p>
          </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
      </div><!-- ABOUT SECTION END -->
@@ -619,7 +619,7 @@
           
           <p>Because of my previous knowledge in java, I felt that I would not
           have any issue with learning the topic. Because of my arrogance, I was not prepared
-          for what the course’s objectives would be and felt lost as I was trying to complete
+          for what the courses objectives would be and felt lost as I was trying to complete
           the first assignment.</p>
           
           <p>With much aid and looking through examples that were given to me by my faculty,

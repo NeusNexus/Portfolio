@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.css">
         
@@ -397,46 +398,29 @@
         </div>
 
 
-			<div id="contact">
-						<h2 class="panel-title">Contact Form</h2>
-					<div class="panel-body">               
-                      <hr class="separetor">
-						<form name="contactform" method="post" action="include/mailer.php" class="form-horizontal" role="form">
-							<div class="form-group">
-								<label for="inputName" class="col-lg-2 control-label">Name</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputSubject" class="col-lg-2 control-label">Subject</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword1" class="col-lg-2 control-label">Message</label>
-								<div class="col-lg-10">
-									<textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-lg-offset-2 col-lg-10">
-									<button type="submit" class="btn btn-dark">
-										Send Message
-									</button>
-								</div>
-							</div>
-						</form>
-
-					</div>
-            </div>
+    <section class="body">
+    
+	    <form action="form.php" method="post" enctype="multipart/form-data">
+	        
+	        <h1 class="title">Contact</h1>
+	        
+		    <label></label>
+		    <input name="name" required="required" placeholder="Your Name">
+		    
+		            
+		    <label></label>
+		    <input name="email" type="email" required="required" placeholder="Your Email">
+		            
+		    
+		    <label></label>
+		    <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+		    
+		    		    
+		    <input id="cancel" name="cancel" value="Cancel" />
+		            
+		    <input id="submit" name="submit" type="submit" value="Submit">
+	        
+	    </form>
         </div>
        
     <?php include("include/Footer.php");?>
