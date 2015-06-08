@@ -37,7 +37,7 @@ label
 /* Centres the form within the page */
 form 
 {
-    margin-left: 15%;
+    margin:0 auto;
     width:459px;
 }
 
@@ -91,7 +91,7 @@ textarea
 #cancel {
 	/* background:url(images/cancel.png); */
 	width:127px;
-	height:48px;
+	height:28px;
 	text-align: center;
 	/* text-indent:-9999px; */
 	border:none;
