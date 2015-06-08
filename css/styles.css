@@ -37,7 +37,7 @@ label
 /* Centres the form within the page */
 form 
 {
-    margin:0 auto;
+    margin-left: 29%;
     width:459px;
 }
 
@@ -70,9 +70,9 @@ textarea
 
 /* Styles the submit button */
 #submit {
+    
+    height: 68px;
 	/* background:url(images/submit.png); */
-	width:127px;
-	height:48px;
 	text-align: center;
 	/* text-indent:-9999px; */
 	border:none;
@@ -87,17 +87,6 @@ textarea
 	opacity:0.9;
 }
 
-/* Styles the cancel button*/	
-#cancel {
-	/* background:url(images/cancel.png); */
-	width:127px;
-	height:28px;
-	text-align: center;
-	/* text-indent:-9999px; */
-	border:none;
-	margin-top:20px;
-	cursor:pointer;
-}
 
 /* Styles the cancel hover */
 #cancel:hover {

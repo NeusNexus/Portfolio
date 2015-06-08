@@ -41,9 +41,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
         
     <!-- ===========================
     ICONS: 
@@ -400,7 +400,7 @@
 
       <hr>
       
-	<div class="head">
+	<div class="head" id="contact">
 		<h3>Contact Form</h3>
 		<p>This is our contact form. Send us your feedback !</p>
     </div>
@@ -412,7 +412,7 @@
 		<input type = "text" name="sub" value="" placeholder="Subject"/>
 		<label>Your Message</label>
 		<textarea name="msg" placeholder="Type your text here..."></textarea>
-		<input type="submit" name="submit" id="send" value="Send Feedback"/>
+		<input type="submit" name="submit" id="submit" value="Send Feedback"/>
 		</form>
 		<h3><?php include "secure_email_code.php"?></h3> 
  </div> 
