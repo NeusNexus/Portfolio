@@ -398,7 +398,9 @@
         </div>
 
 
-    <section class="body">
+      <hr>
+      
+    <section class="body" id="contact">
     
 	    <form action="form.php" method="post" enctype="multipart/form-data">
 	        
@@ -421,6 +423,7 @@
 		    <input id="submit" name="submit" type="submit" value="Submit">
 	        
 	    </form>
+    </section>
         </div>
        
     <?php include("include/Footer.php");?>
