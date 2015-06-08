@@ -400,22 +400,39 @@
 
       <hr>
       
-	<div class="head" id="contact">
-		<h3>Contact Form</h3>
-		<p>This is our contact form. Send us your feedback !</p>
-    </div>
-	
-	<!-- feedback form form -->
-		<form id="form" action="#" method="post">
-		<input type = "text" name="vname" value="" placeholder="Your Name"/>
-		<input type = "text" name="vemail" value="" placeholder="Your Email"/>
-		<input type = "text" name="sub" value="" placeholder="Subject"/>
-		<label>Your Message</label>
-		<textarea name="msg" placeholder="Type your text here..."></textarea>
-		<input type="submit" name="submit" id="submit" value="Send Feedback"/>
-		</form>
-		<h3><?php include "secure_email_code.php"?></h3> 
- </div> 
+    <section class="body">
+    
+        <h1>Contact Form</h1>
+    	    
+        <form method="post" action="index.php" id="contact">
+        
+            <label>Name</label>
+            <input name="name" placeholder="Type Here">
+            
+            <label>Email</label>
+            <input name="email" type="email" placeholder="Type Here">
+            
+            <label>Message</label>
+            <textarea name="message" placeholder="Type Here"></textarea>
+            
+            <label>*What is 2+2? (Anti-spam)</label>
+            <input name="human" placeholder="Type Here">
+            
+            <input id="submit" name="submit" type="submit" value="Submit">
+        
+        </form>
+        
+            <?php
+if (isset($_POST['submit'])) {
+    if (mail ($to, $subject, $body, $from)) { 
+        echo '<p>Your message has been sent!</p>';
+    } else { 
+        echo '<p>Something went wrong, go back and try again!</p>'; 
+    }
+}
+?>
+        
+    </section> 
         </div>
        
     <?php include("include/Footer.php");?>
